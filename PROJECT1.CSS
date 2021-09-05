@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, helvetica, sans-serif
+    
+    
+    }
+    
+    #MAIN-DOC
+    {
+    display: flex;
+    
+    }
+    
+    nav{
+    
+      width: 300px;
+      position: fixed ;
+      top: 0;
+      border: 1px solid red;
+      height:fit-content;
+    
+    }
+    
+    nav header{
+    background-color: black;
+    color: rgb(27, 9, 9);
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 10px 5px;
+    text-align: center;
+    
+    }
+    
+    nav ul li{
+    
+    border-bottom: 1px solid black;
+    display: block;
+    text-align: center;
+    
+    
+    
+    }
+    
+    nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    display:block;
+    width: 100%;
+    padding: 10px;
+    }
+    
+    
+    
+    
+    
+    
+    nav ul A:hover{
+    
+    
+    
+      background-color: black;
+      color: white;
+    }
+    
+    
+    
+    
+    
+    
+    
+    #SECTIONS{
+    
+    width: 60%;
+    padding: 0px 10px;
+    }
+    
+    .MAIN-SECTION header {
+      background-color: black;
+      color: white;
+      font-size: 30px;
+      font-weight: bolder;
+      padding: 10px 5px;
+      text-align: center;
+      
+      }
+      .MAIN-SECTION p{
+    padding: 10px 0px 10px 10px;
+    line-height: 23px;
+    
+    
+      }
+      .MAIN-SECTION ul li{
+        padding: 10px 0px 10px 10px;
+        line-height: 23px;
+        margin-left: 30px;
+        padding-left: 0px;
+    
+    
+    
+      }
+      .MAIN-SECTION code{
+    background-color:#d4caca;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px 15px;
+    
+      }
+    
+    
+      @media (max-width: 815px ) {
+    MAIN-DOC{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    }
+    NAV{
+    
+    position: static;
+    
+    }
+    NAV #SECTIONS{
+      width: 100%;
+    }
+    
+      }
+    
+    
+    
