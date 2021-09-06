@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <title>TECHNICAL DOCUMENTATION</title>
-  <!-- <link rel="stylesheet" href="PROJECT1.CSS">--> 
+  <link rel="stylesheet" href="PROJECT1.CSS">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,60 +12,60 @@
    <main id="MAIN-DOC">
        <nav id="NAVBAR">
 <header>JS DOCUMENTATION</header>
-<UL>
-<LI><A href="#INTRODUCTION" CLASS="NAV-LINK">INTRODUCTION</A></LI>
-<LI><A href="#What you should already know" CLASS="NAV-LINK">What you should already know</A></LI>
-<LI><A href="#JavaScript and Java" CLASS="NAV-LINK">JavaScript and Java</A></LI>
-<LI><A href="#HELLO WORLD" CLASS="NAV-LINK">HELLO WORLD</A></LI>
-<LI><A href="#Variables" CLASS="NAV-LINK">Variables</A></LI>
-<LI><A href="#DECLARING VARIABLES" CLASS="NAV-LINK">DECLARING VARIABLES</A></LI>
-<LI><A href="#Variable scope" CLASS="NAV-LINK">Variable scope</A></LI>
-<LI><A href="#Global variables" CLASS="NAV-LINK">Global variables</A></LI>
-<LI><A href="#Constants" CLASS="NAV-LINK">Constants</A></LI>
-<LI><A href="#Data types" CLASS="NAV-LINK">Data types</A></LI>
-<LI><A href="#if...else statement" CLASS="NAV-LINK">if...else statement</A></LI>
-<LI><A href="#while statement" CLASS="NAV-LINK">while statement</A></LI>
-<LI><A href="#Function declarations" CLASS="NAV-LINK">Function declarations</A></LI>
-<LI><A href="#Reference" CLASS="NAV-LINK">Reference</A></LI>
+<ul>
+<li><a href="#INTRODUCTION" class="NAV-LINK">INTRODUCTION</a></li>
+<li><a href="#What you should already know" class="NAV-LINK">What you should already know</a></li>
+<li><a href="#JavaScript and Java" class="NAV-LINK">JavaScript and Java</a></li>
+<li><a href="#HELLO WORLD" class="NAV-LINK">HELLO WORLD</a></li>
+<li><a href="#Variables" class="NAV-LINK">Variables</a></li>
+<li><a href="#DECLARING VARIABLES" class="NAV-LINK">DECLARING VARIABLES</a></li>
+<li><a href="#Variable scope" class="NAV-LINK">Variable scope</a></li>
+<li><a href="#Global variables" class="NAV-LINK">Global variables</a></li>
+<li><a href="#Constants" class="NAV-LINK">Constants</Aa</li>
+<li><a href="#Data types" class="NAV-LINK">Data types</Aa</li>
+<li><a href="#if...else statement" class="NAV-LINK">if...else statement</a></li>
+<li><a href="#while statement" class="NAV-LINK">while statement</a></li>
+<li><a href="#Function declarations" class="NAV-LINK">Function declarations</a></li>
+<li><a href="#Reference" class="NAV-LINK">Reference</a></li>
 
-</UL>
+</ul>
 
 
        </nav>
        
-       <div id="SECTIONS">
+<div id="SECTIONS">
 <section class="MAIN-SECTION" id="INTRODUCTION">
 <header>INTRODUCTION </header>
 <P>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
 
   <p>  JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:
   </P>
-    Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.
+   <p> Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.
     Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.
 </P>
-</SECTION>
+</section>
 <section class="MAIN-SECTION" id="What you should already know">
 <HEADER>What you should already know</HEADER>
 <P>This guide assumes you have the following basic background:</P>
-<UL TYPE="DISK">
-    <LI>A general understanding of the Internet and the World Wide Web (WWW).</LI>
-    <LI>Good working knowledge of HyperText Markup Language (HTML).</LI>
-    <LI>Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript</LI>
-</UL>
+<ul TYPE="DISK">
+    <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
+    <li>Good working knowledge of HyperText Markup Language (HTML).</li>
+    <li>Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript</li>
+</ul>
 
 </section>
 
 <section class="MAIN-SECTION" id="JavaScript and Java">
-<HEADER>JavaScript and Java</HEADER>
-<P>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.
+<header>JavaScript and Java</header>
+<p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.
+
+</p>
+<p>In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime system based on a small number of data types representing numeric, Boolean, and string values. JavaScript has a prototype-based object model instead of the more common class-based object model. The prototype-based model provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript also supports functions without any special declarative requirements. Functions can be properties of objects, executing as loosely typed methods.
 
 </P>
-<P>In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime system based on a small number of data types representing numeric, Boolean, and string values. JavaScript has a prototype-based object model instead of the more common class-based object model. The prototype-based model provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript also supports functions without any special declarative requirements. Functions can be properties of objects, executing as loosely typed methods.
+<p>JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces. Variables, parameters, and function return types are not explicitly typed.
 
-</P>
-<P>JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces. Variables, parameters, and function return types are not explicitly typed.
-
-</P>
+</p>
 
 
 </section>
@@ -74,23 +74,23 @@
 <section class="MAIN-SECTION" id="HELLO WORLD">
 
 <header>HELLO WORLD</header>
-<P>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
+<p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
 
-</P>
-<CODE>function greetMe(yourName) { alert("Hello " + yourName); }
-    greetMe("World");</CODE>
+</p>
+<code>function greetMe(yourName) { alert("Hello " + yourName); }
+    greetMe("World");</code>
 
-    <P>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</P>
+    <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
     </section>
 
 <section class="MAIN-SECTION" id="Variables">
-<HEADER>Variables</HEADER>
-<P>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.
+<header>Variables</header>
+<p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.
 
-</P>
-<P>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).
+</p>
+<p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).
 
-</P>
+</p>
 <p>You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name.
 
 </p>
@@ -103,19 +103,19 @@
 
   <section class="MAIN-SECTION" id="DECLARING VARIABLES" >
       <header>DECLARING VARIABLES</header>
-      <P>You can declare a variable in three ways:</P>
-      <P> With the keyword var. For example,</P>
+      <p>You can declare a variable in three ways:</p>
+      <p> With the keyword var. For example,</p>
       <CODE>var x = 42</CODE>
-      <P>This syntax can be used to declare both local and global variables.</P>
+      <p>This syntax can be used to declare both local and global variables.<p>
 
-      <P>  By simply assigning it a value. For example,</P>
+      <p>  By simply assigning it a value. For example,</p>
 
-      <CODE>x = 42</CODE>
+      <code>x = 42</code>
       <p>This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.</p>
 
-      <P> With the keyword let. For example,</p>
-        <CODE>let y = 13.</CODE>
-        <P>This syntax can be used to declare a block scope local variable. See Variable scope below.</P>
+      <p> With the keyword let. For example,</p>
+        <code>let y = 13.</code>
+        <p>This syntax can be used to declare a block scope local variable. See Variable scope below.</p>
 
 
 
@@ -286,10 +286,10 @@
 <p>The function square takes one argument, called number. The function consists of one statement that says to return the argument of the function (that is, number) multiplied by itself. The return statement specifies the value returned by the function.
 
 </p>
-<CODE>return number * number;</CODE>
-<P>Primitive parameters (such as a number) are passed to functions by value; the value is passed to the function, but if the function changes the value of the parameter, this change is not reflected globally or in the calling function.
+<code>>return number * number;</CODE>
+<p>Primitive parameters (such as a number) are passed to functions by value; the value is passed to the function, but if the function changes the value of the parameter, this change is not reflected globally or in the calling function.
 
-</P>
+</p>
 
 
 
@@ -297,9 +297,9 @@
 </section>
 <section class="MAIN-SECTION" id="Reference">
 <header>Reference</header>
-<UL TYPE="DISK">
-    <LI>All the documentation in this page is taken from MDN</LI>
-</UL>
+<ul TYPE="DISK">
+    <li>All the documentation in this page is taken from MDN</li>
+</ul>
 
 
 
