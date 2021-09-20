@@ -134,8 +134,8 @@ color: grey;
       }
     
     
-      @media (max-width: 815px ) {
-    MAIN-DOC{
+      @media screen and  (max-width: 815px ) {
+    #MAIN-DOC{
     display: flex;
     flex-direction: column;
     
